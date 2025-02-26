@@ -19,8 +19,9 @@ namespace ImageClassification.Infrastructure.Services
 
         public ImageClassifier()
         {
-            var modelPath = Path.Combine(AppContext.BaseDirectory, "Controllers", "resnet50-v1-12.onnx");
-            var labelsPath = Path.Combine(AppContext.BaseDirectory, "Controllers", "imagenet_classes.txt");
+            var modelPath = Path.Combine(AppContext.BaseDirectory, "Infrastructure", "Models", "resnet50-v1-12.onnx");
+            var labelsPath = Path.Combine(AppContext.BaseDirectory, "Infrastructure", "Models", "imagenet_classes.txt");
+
 
             if (!File.Exists(modelPath))
                 throw new FileNotFoundException($"Modelo não encontrado: {modelPath}");

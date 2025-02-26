@@ -19,10 +19,10 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Update="Controllers\imagenet_classes.txt">
+    <None Update="Infrastructure\Models\imagenet_classes.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Controllers\resnet50-v1-12.onnx">
+    <None Update="Infrastructure\Models\resnet50-v1-12.onnx">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
   </ItemGroup>
