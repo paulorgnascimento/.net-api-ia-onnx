@@ -1,4 +1,4 @@
-﻿namespace ImageClassification.Controllers
+namespace ImageClassification.Domain.Entities
 {
     public class ImageRequest
     {
